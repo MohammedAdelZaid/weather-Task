@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url(../imgs/bridge.jfif);
+}
+
+.bg {
+    background-image: url(../imgs/bridge.jfif);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+    color: white;
+    padding-top: 20%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1{
+
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.lable{
+    background-color: #323544;
+}
+
