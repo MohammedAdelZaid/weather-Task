@@ -14,8 +14,8 @@ display()
 
 }
 
-
 /////////////////////////////////////////////////////////////////////////////////
+
 let dayNames = [];
 
 function getDayNames() {
@@ -166,12 +166,10 @@ if(dataArr[i].location.name.toLowerCase().includes(word.toLowerCase())){
 
 
   cartona+=`
-
   <div class="lable  col-md-4 " >
 <div class="date bg-danger  d-flex justify-content-between align-items-center px-1 mx-0 ">
 <p class="text-light opacity-75">${dayNames[0]}</p>
-<p class="text-light opacity-75">${formattedDates[0]}</p>
-</div>
+<p class="text-light opacity-75">${formattedDates[0]}</p></div>
 <div class="weather">
 <div class="variables">
 <p class="text-start p-3 text-light opacity-75">${dataArr.location.name}</p>
